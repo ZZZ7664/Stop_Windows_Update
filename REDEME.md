@@ -34,6 +34,7 @@
 
 ## 四、通过注册表关闭Win10自动更新功能
 1、按Win + R 组合键，在弹出的运行框中输入：regedit，确定。
+
 ![image](https://github.com/user-attachments/assets/b81e559f-d8d5-4339-b621-3f4f9196f99d)
 
 2、在注册表编辑器中找到：HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\UsoSvc。然后在右侧找到“Start”键。
@@ -43,6 +44,7 @@
 ![image](https://github.com/user-attachments/assets/9f5dd6a2-c938-4613-b2fc-15f7520a218b)
 
  4、右侧找到“FailureActions”，双击弹出框中，把“0010”、“0018”行的左起第5个数值由原来的“01”改为“00”， “确定”。这样我们就可以彻底把win10自动更新永久关闭。
+ 
 ![image](https://github.com/user-attachments/assets/ec8c4712-12e2-4b06-80d3-2182fa620393)
 
 
